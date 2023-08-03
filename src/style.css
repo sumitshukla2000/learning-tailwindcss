@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative mb-4 md:mb-3 sm:mb-4;
+}
+
+.badge{
+    @apply bg-gray-100 text-gray-600 rounded-full p-2 absolute top-0 mx-3 my-3 uppercase;
+}
